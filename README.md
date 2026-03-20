@@ -30,13 +30,12 @@ and clearances, performed FEA stress analysis, and generated a structured BOM.
 
 ### Key Components Modeled
 - **Main Rod** — primary connecting rod linking the crankshaft to the master piston
-- **Articulated Rod** — secondary rods connecting the remaining 4 pistons to the main rod
-- **Piston Cap** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
-
-![Articulated Rod](./Articulated-rod.png)
-
 ![Main Rod](./main-rod.png)
-
+- **Articulated Rod** — secondary rods connecting the remaining 4 pistons to the main rod
+![Articulated Rod](./Articulated-rod.png)
+- **Piston Cap** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
 ![Piston](./piston.png)
+
+
 
 ---
