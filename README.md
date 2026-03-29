@@ -1,4 +1,4 @@
-# Radial Engine CAD Model
+# Radial Engine CAD Assembly
 **Tools:** SolidWorks | **Timeline:** December 2025 – February 2026
 
 ## Overview
