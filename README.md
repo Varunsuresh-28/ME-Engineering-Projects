@@ -17,11 +17,11 @@ of a main and articulated rod system.
 ![Main Rod](./main-rod.png)
 - **Articulated Rod** — secondary rods connecting the remaining 4 pistons to the main rod
 ![Articulated Rod](./Articulated-rod.png)
-- **Piston Cap** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
+- **Piston** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
 ![Piston](./piston.png)
 - **Piston-Rod Subassembly** — isolated model of the piston joined to the main and articulated rods, showing the pin connections and joint geometry
 ![Piston-Rod Subassembly](./piston-rod-subassembly.png)
-- **Engine Shell (Crankcase & Cylinder Barrels)** —5 cylinder central structural housing enclosing the crankshafts, Main Rod, Articulated Rods, and the Piston Caps. 
+- **Engine Shell (Crankcase & Cylinder Barrels)** —5 cylinder central structural housing enclosing the crankshafts, Main Rod, Articulated Rods, and the Pistons. 
 ![Engine Shell](./engine-shell.png)
 
 ### Full Assembly
