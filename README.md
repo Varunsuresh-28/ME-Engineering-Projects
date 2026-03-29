@@ -32,7 +32,7 @@ of a main and articulated rod system.
 ![Assembly Overview](images/overview.png)
 
 ### Motion Study
-![Motion Study](images/motion-study.gif)
+![Motion Study](motion-study.gif)
 
 ### Bill of Materials
 ![BOM](images/drawings/bom.png)
