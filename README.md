@@ -51,7 +51,8 @@ of a main and articulated rod system.
 ![Full Engine Propeller Motion Study](./full-engine-propeller-motion.gif)
 
 ### Bill of Materials
-![BOM](images/drawings/bom.png)
+![BOM](./Radial-Engine-Bom.pdf)
+
 
 
 
