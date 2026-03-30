@@ -18,8 +18,10 @@ of a main and articulated rod system.
 
 ### Key Components Modeled
 - **Main Rod** — primary connecting rod linking the crankshaft to the master piston
+
 ![Main Rod](./main-rod.png)
 - **Articulated Rod** — secondary rods connecting the remaining 4 pistons to the main rod
+
 ![Articulated Rod](./Articulated-rod.png)
 - **Piston** — top closure of each piston assembly, designed for precise fitment and clearance tolerances
 ![Piston](./piston.png)
