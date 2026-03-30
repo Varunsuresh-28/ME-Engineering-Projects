@@ -44,7 +44,8 @@ of a main and articulated rod system.
 ### Motion Studies
 
 - **Piston-Rod Subassembly Motion** — isolated animation of the piston, main rod, and articulated rod cycling through one full crankshaft revolution, validating pin joint kinematics and interference clearances
-![Piston-Rod Motion Study](./piston-rod-motion.gif)
+
+<img src="./piston-rod-motion.gif" width="1050"/>
 
 - **Full Engine with Propeller** — complete 5-cylinder radial engine motion study with propeller attached, demonstrating synchronized firing sequence, rotational output, and propeller disc behavior under simulated load
 <img src="./full-engine-propeller-motion.gif" width="1050"/>
