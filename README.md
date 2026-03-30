@@ -25,8 +25,12 @@ of a main and articulated rod system.
 ![Crankshaft](./crankshaft.png)
 - **Engine Shell (Crankcase & Cylinder Barrels)** —5 cylinder central structural housing enclosing the crankshafts, Main Rod, Articulated Rods, and the Pistons. 
 ![Engine Shell](./engine-shell.png)
+- **Propeller** — 2-blade propeller modeled using SolidWorks Sweep to generate the twisted aerofoil profile along a defined pitch path, simulating rotational output from the crankshaft
+![Propeller](./propeller.png)
 
 ### Full Assembly
+> Crankcase rendered transparent to expose the internal Piston-Rod Subassembly and crankshaft geometry
+![Full Assembly](./full-assembly.png)
 
 
 ![Assembly Overview](images/overview.png)
