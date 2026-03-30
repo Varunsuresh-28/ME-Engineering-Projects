@@ -33,7 +33,7 @@ of a main and articulated rod system.
 
 - **Propeller**: 3-blade propeller modeled using SolidWorks Sweep to generate the twisted aerofoil profile along a defined pitch path, simulating rotational output from the crankshaft
 ![Propeller](./propeller.png)
-![Full Engine Propeller Motion Study](./full-engine-propeller-motion.gif)
+
 ### Full Assembly
 > Crankcase rendered transparent to expose the internal Piston-Rod Subassembly and crankshaft geometry
 
@@ -47,7 +47,6 @@ of a main and articulated rod system.
 ![Piston-Rod Motion Study](./piston-rod-motion.gif)
 
 - **Full Engine with Propeller** — complete 5-cylinder radial engine motion study with propeller attached, demonstrating synchronized firing sequence, rotational output, and propeller disc behavior under simulated load
--
 ![Full Engine Propeller Motion Study](./full-engine-propeller-motion.gif)
 
 ### Bill of Materials
