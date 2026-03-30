@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Preview" width="600"/>
+  <img src="./Preview.png" width="600"/>
 </p>
 
 # Radial Engine CAD Assembly
