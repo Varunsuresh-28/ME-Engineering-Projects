@@ -100,7 +100,7 @@ loads in this engine configuration. Significant permanent deformation would occu
 ---
 
 ### Static 3 — 7075-T6 Aluminum
-![7075-T6 Aluminum FEA](./7075-T6__SN__Aluminum.png)
+![7075-T6 Aluminum FEA](./7075-T6-SN-Aluminum)
 
 | Parameter | Value |
 |---|---|
