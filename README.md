@@ -45,11 +45,11 @@ of a main and articulated rod system.
 
 ### Motion Studies
 
-- **Piston-Rod Subassembly Motion** — isolated animation of the piston, main rod, and articulated rod cycling through one full crankshaft revolution, validating pin joint kinematics and interference clearances
+- **Piston-Rod Subassembly Motion**  isolated animation of the piston, main rod, and articulated rod cycling through one full crankshaft revolution, validating pin joint kinematics and interference clearances
 
 <img src="./piston-rod-motion.gif" width="1050"/>
 
-- **Full Engine with Propeller** — complete 5-cylinder radial engine motion study with propeller attached, demonstrating synchronized firing sequence, rotational output, and propeller disc behavior under simulated load
+- **Full Engine with Propeller**  complete 5-cylinder radial engine motion study with propeller attached, demonstrating synchronized firing sequence, rotational output, and propeller disc behavior under simulated load
 <img src="./full-engine-propeller-motion.gif" width="1050"/>
 
 
@@ -62,14 +62,14 @@ applies identical boundary conditions and loading to isolate material performanc
 ### Methodology
 Von Mises stress criterion is used to evaluate yielding:
 
-- **Von Mises Stress (σ_vm)** — equivalent stress combining all stress components into a single scalar value
-- **Yield Strength (σ_y)** — the stress at which a material begins to permanently deform
-- **Factor of Safety (FOS)** — ratio of yield strength to peak stress: `FOS = σ_y / σ_vm(max)`
+- **Von Mises Stress (σ_vm)**  equivalent stress combining all stress components into a single scalar value
+- **Yield Strength (σ_y)**  the stress at which a material begins to permanently deform
+- **Factor of Safety (FOS)**  ratio of yield strength to peak stress: `FOS = σ_y / σ_vm(max)`
 - A **FOS > 1.0** means the part does not yield; **FOS < 1.0** means failure
 
 ---
 
-### Static 1 — 1060-H12 Aluminum
+### Static 1:  1060-H12 Aluminum
 ![1060-H12 Aluminum FEA](./1060-H12_Aluminum.png)
 
 | Parameter | Value |
@@ -78,13 +78,13 @@ Von Mises stress criterion is used to evaluate yielding:
 | Yield Strength | 75.0 MPa |
 | Factor of Safety | **0.12** |
 
-**Result: FAIL** — Peak stress is 8.4× the yield strength. The crankshell catastrophically yields 
+**Result: FAIL**  Peak stress is 8.4× the yield strength. The crankshell catastrophically yields 
 under load. Commercially pure aluminum has no viable application in combustion engine structures. 
 Serves as a baseline only.
 
 ---
 
-### Static 2 — 6061-T6 Aluminum
+### Static 2:  6061-T6 Aluminum
 ![6061-T6 Aluminum FEA](./6061-T6_Aluminum.png)
 
 | Parameter | Value |
@@ -93,13 +93,13 @@ Serves as a baseline only.
 | Yield Strength | 275.0 MPa |
 | Factor of Safety | **0.43** |
 
-**Result: FAIL** — Peak stress is 2.3× the yield strength. Despite being a standard structural alloy 
+**Result: FAIL**  Peak stress is 2.3× the yield strength. Despite being a standard structural alloy 
 used widely in aerospace and automotive applications, 6061-T6 is insufficient for the peak combustion 
 loads in this engine configuration. Significant permanent deformation would occur.
 
 ---
 
-### Static 3 — 7075-T6 Aluminum
+### Static 3:  7075-T6 Aluminum
 ![7075-T6 Aluminum FEA](./7075-T6-SN-Aluminum.png)
 
 | Parameter | Value |
@@ -108,15 +108,15 @@ loads in this engine configuration. Significant permanent deformation would occu
 | Yield Strength | 505.0 MPa |
 | Factor of Safety | **1.45** |
 
-**Result: PASS ✓** — Peak stress remains below yield strength with a 45% structural buffer. 
+**Result: PASS ✓**  Peak stress remains below yield strength with a 45% structural buffer. 
 The stress distribution is predominantly in the lower range (blue), with moderate stress 
 concentrations at the cylinder collar interfaces (green). The part operates entirely within 
-its elastic region — it deforms under load but returns to its original geometry. Selected as 
+its elastic region it deforms under load but returns to its original geometry. Selected as 
 the optimal material for its high strength-to-weight ratio.
 
 ---
 
-### Static 4 — Ti-6Al-4V Titanium
+### Static 4: Ti-6Al-4V Titanium
 ![Ti-6Al-4V Titanium FEA](./Ti-6Al-4V_Titanium.png)
 
 | Parameter | Value |
@@ -125,9 +125,9 @@ the optimal material for its high strength-to-weight ratio.
 | Yield Strength | 827.4 MPa |
 | Factor of Safety | **2.35** |
 
-**Result: PASS ✓** — Highest FOS of all four materials with a 135% structural buffer. Stress 
+**Result: PASS ✓**  Highest FOS of all four materials with a 135% structural buffer. Stress 
 concentrations are minimal and well distributed. However, Ti-6Al-4V carries a significant cost 
-and machinability penalty over aluminum — its superior performance is not required given that 
+and machinability penalty over aluminum its superior performance is not required given that 
 7075-T6 already satisfies the structural requirements. Retained as a high-performance fallback 
 for elevated operating conditions.
 
